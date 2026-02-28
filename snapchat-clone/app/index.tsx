@@ -158,6 +158,9 @@ export default function Index() {
             onPress={() => {
               if (i === 2) {
                 router.push("/camera");
+                 } else if (i === 4) {
+                router.push("/memories");
+              
               }
             }}
           >
